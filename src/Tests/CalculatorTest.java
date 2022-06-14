@@ -22,7 +22,7 @@ class CalculatorTest {
     }
 
     @Test
-    void EightDevideByTwoShouldEqualFour(){
+    void EightDivideByTwoShouldEqualFour(){
         var cal = new Calculator();
         assertEquals(4,cal.division(8,2));
     }
